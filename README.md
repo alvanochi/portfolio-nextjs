@@ -1,16 +1,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/irfanbakhtiar/larawind-portfolio">
+  <a href="https://github.com/alvanochi/portfolio-nextjs">
     <img src="public/assets/img/demo.png" alt="Demo">
   </a>
 
-  <h3 align="center">IrfanBakhtiar-V2</h3>
+  <h3 align="center">Alvano-V2</h3>
 
   <p align="center">
     Second version of my portfolio website built with Next.js, React.js and Tailwind CSS
     <br />
-    <a href="https://github.com/irfanbakhtiar/v2portfolio/issues">Report Bug</a>
+    <a href="https://github.com/alvanochi/portfolio-nextjs/issues">Report Bug</a>
 <!--     ·
     <a href="https://github.com/irfanbakhtiar/v2portfolio/issue">Request Feature</a> -->
   </p>
@@ -35,11 +35,11 @@ This project uses the following plugin:
 The project has features such as:
 
 - About Section
-- Experience Section
+<!-- - Experience Section -->
 - Projects Section
 
 <!-- GETTING STARTED -->
-
+<!--
 ## Getting Started
 
 This is a step about setting up your project locally. To get a local copy up and running, follow these simple example steps.
@@ -63,4 +63,4 @@ _Below are the procedures for installing and setting up your app._
 3. Run development server
    ```sh
    npm run dev
-   ```
+   ``` -->
