@@ -8,7 +8,7 @@ const Footer = () => {
       <span className="block pt-1 text-xs md:text-sm text-slate-500">
         Created by{" "}
         <a
-          href="https://www.linkedin.com/in/m-irfan-bakhtiar/"
+          href="https://www.linkedin.com/in/alvanoh/"
           target="_blank"
           className="font-medium text-semidark hover:text-sky hover:underline hover:underline-offset-4"
         >

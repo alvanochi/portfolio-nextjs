@@ -64,6 +64,7 @@ const Projects = () => {
               />
               <a
                 href="https://notes-noci.netlify.app/"
+                target="_blank"
                 className="mb-2 text-base font-medium group md:ml-4 font-title text-primary hover:text-sky"
               >
                 Notes Project React.js{" "}
@@ -99,6 +100,7 @@ const Projects = () => {
               />
               <a
                 href="https://alvanochi.github.io/noci-store-tailwind/"
+                target="_blank"
                 className="mb-2 text-base font-medium group md:ml-4 font-title text-primary hover:text-sky"
               >
                 My Store Tailwind{" "}
@@ -134,6 +136,7 @@ const Projects = () => {
               />
               <a
                 href="https://alvanochi.github.io/Cashier/"
+                target="_blank"
                 className="mb-2 text-base font-medium group md:ml-4 font-title text-primary hover:text-sky"
               >
                 Cashier Landing Page{" "}
