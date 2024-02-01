@@ -1,5 +1,12 @@
 import Image from "next/image";
-import { nextjs, reactjs, tailwind } from "@/public/assets/";
+import {
+  nextjs,
+  reactjs,
+  nociStore,
+  cashier,
+  wedding,
+  smanic,
+} from "@/public/assets/";
 import { FiArrowUpRight } from "react-icons/fi";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
@@ -89,49 +96,49 @@ const Projects = () => {
             </ul>
           </div>
         </div>
-        {/* Tailwind */}
+        {/* wedding */}
         <div className="flex flex-col items-center rounded-lg shadow md:flex-row">
           <div className="flex flex-col justify-between w-full leading-normal md:p-4 md:border md:border-slate-800 md:rounded-lg">
             <div className="md:flex md:items-center">
               <Image
-                src={tailwind}
-                alt="Tailwind"
+                src={wedding}
+                alt="Wedding"
                 className="w-full mb-4 rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
               />
               <a
-                href="https://alvanochi.github.io/noci-store-tailwind/"
+                href="https://alvanochi.github.io/undangan/"
                 target="_blank"
                 className="mb-2 text-base font-medium group md:ml-4 font-title text-primary hover:text-sky"
               >
-                My Store Tailwind{" "}
+                Wedding Invitation{" "}
                 <FiArrowUpRight className="inline-flex transition group-hover:-translate-y-1" />
               </a>
             </div>
             <p className="mt-2 mb-4 text-sm md:mt-0 md:text-md text-semidark">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum,
-              placeat delectus sint ab ipsum corporis asperiores reprehenderit
-              molestias nisi dolorem.
+              I proudly introduce an online wedding invitation design service.
+              With a focus on beauty and convenience, this website is created to
+              celebrate your love story with a modern flair and romantic touch.
             </p>
             <ul className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-dark">
               <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                Sweet-Alert
+                Bootstrap
               </span>
               <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                Framer
+                Postgresql
               </span>
               <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                Tailwind
+                PHP (API)
               </span>
             </ul>
           </div>
         </div>
-        {/* Tailwind */}
+        {/* cashier */}
         <div className="flex flex-col items-center rounded-lg shadow md:flex-row">
           <div className="flex flex-col justify-between w-full leading-normal md:p-4 md:border md:border-slate-800 md:rounded-lg">
             <div className="md:flex md:items-center">
               <Image
-                src={tailwind}
-                alt="Tailwind"
+                src={cashier}
+                alt="Cashier-landing-page"
                 className="w-full mb-4 rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
               />
               <a
@@ -144,17 +151,12 @@ const Projects = () => {
               </a>
             </div>
             <p className="mt-2 mb-4 text-sm md:mt-0 md:text-md text-semidark">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum,
-              placeat delectus sint ab ipsum corporis asperiores reprehenderit
-              molestias nisi dolorem.
+              I designed this project using Tailwind CSS. The result is a
+              visually appealing and responsive landing page that not only
+              showcases the cashier functionality but also ensures a smooth and
+              modern user experience.
             </p>
             <ul className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-dark">
-              <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                Ajax
-              </span>
-              <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                Framer
-              </span>
               <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
                 Tailwind
               </span>
@@ -174,32 +176,35 @@ const Projects = () => {
               <div className="flex flex-col justify-between w-full leading-normal md:p-4 md:border md:border-slate-800 md:rounded-lg">
                 <div className="md:flex md:items-center">
                   <Image
-                    src={nextjs}
-                    alt="Next.js"
+                    src={nociStore}
+                    alt="noci-store"
                     className="w-full mb-4 rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
                   />
                   <a
-                    href="#"
+                    href="https://toko.alvan.my.id"
+                    target="_blank"
                     className="mb-2 text-base font-medium group md:ml-4 font-title text-primary hover:text-sky"
                   >
-                    Portfolio Next.js{" "}
+                    Noci-store Premium Services{" "}
                     <FiArrowUpRight className="inline-flex group-hover:-translate-y-1 " />
                   </a>
                 </div>
                 <p className="mt-2 mb-4 text-sm md:mt-0 md:text-md text-semidark">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore officia, animi perspiciatis quidem earum fugiat dolor
-                  dignissimos quo vero assumenda!
+                  I have developed a small-scale e-commerce website specializing
+                  in premium services. When ready to make a purchase, users are
+                  seamlessly directed to WhatsApp, ensuring a personalized and
+                  direct interaction for a smooth and convenient buying
+                  experience.
                 </p>
                 <ul className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-dark">
                   <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                    Next.js
+                    Tailwind
                   </span>
                   <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                    Framer
+                    Scroll-reveal
                   </span>
                   <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                    Vercel
+                    Sweet Alert
                   </span>
                 </ul>
               </div>
@@ -213,32 +218,35 @@ const Projects = () => {
               <div className="flex flex-col justify-between w-full leading-normal md:p-4 md:border md:border-slate-800 md:rounded-lg">
                 <div className="md:flex md:items-center">
                   <Image
-                    src={nextjs}
-                    alt="Next.js"
+                    src={smanic}
+                    alt="SMA Negeri 1 Ciampea Landing Page"
                     className="w-full mb-4 rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
                   />
                   <a
-                    href="#"
+                    href="https://sman1c.vercel.app/"
+                    target="_blank"
                     className="mb-2 text-base font-medium group md:ml-4 font-title text-primary hover:text-sky"
                   >
-                    Portfolio Next.js{" "}
+                    SMA N 1 C{" "}
                     <FiArrowUpRight className="inline-flex group-hover:-translate-y-1 " />
                   </a>
                 </div>
                 <p className="mt-2 mb-4 text-sm md:mt-0 md:text-md text-semidark">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore officia, animi perspiciatis quidem earum fugiat dolor
-                  dignissimos quo vero assumenda!
+                  I have created the landing page for my high school, SMA Negeri
+                  1 Ciampea, employing ReactJS and following to the Atomic
+                  Design methodology for the folder structure. This approach
+                  ensures a modular and organized design, enhancing the overall
+                  user experience and responsiveness of the website.
                 </p>
                 <ul className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-dark">
                   <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                    Next.js
+                    Reactjs
                   </span>
                   <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
                     Framer
                   </span>
                   <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                    Vercel
+                    Scroll-Carousel
                   </span>
                 </ul>
               </div>
