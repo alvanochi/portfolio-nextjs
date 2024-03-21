@@ -6,6 +6,7 @@ import {
   cashier,
   wedding,
   smanic,
+  catat,
 } from "@/public/assets/";
 import { FiArrowUpRight } from "react-icons/fi";
 import React, { useState } from "react";
@@ -25,37 +26,38 @@ const Projects = () => {
       </h3>
       {/* Projects content */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:px-10">
-        {/* Next.js */}
+        {/* Catat */}
         <div className="flex flex-col items-center rounded-lg shadow md:flex-row">
           <div className="flex flex-col justify-between w-full leading-normal md:p-4 md:border md:border-slate-800 md:rounded-lg">
             <div className="md:flex md:items-center">
               <Image
-                src={nextjs}
-                alt="Next.js"
+                src={catat}
+                alt="catat"
                 className="w-full mb-4 rounded-md h-44 md:h-32 lg:h-20 md:w-44 lg:w-32 md:border-solid md:border-2 md:border-slate-600 lg:hover:border-semidark"
               />
               <a
-                href="#"
+                href="https://catat-mata-kuliah.vercel.app/"
+                target="_blank"
                 className="mb-2 text-base font-medium group md:ml-4 font-title text-primary hover:text-sky"
               >
-                Portfolio Next.js{" "}
+                Catat Jadwal Mata Kuliah{" "}
                 <FiArrowUpRight className="inline-flex group-hover:-translate-y-1 " />
               </a>
             </div>
             <p className="mt-2 mb-4 text-sm md:mt-0 md:text-md text-semidark">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              officia, animi perspiciatis quidem earum fugiat dolor dignissimos
-              quo vero assumenda!
+              The project was built using Firebase was used as a platform for
+              storing data and user authentication. The design and layout was
+              inspired by the elements found in Notion.
             </p>
             <ul className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-dark">
               <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                Next.js
+                ReactJS
               </span>
               <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                Framer
+                TailwindCSS
               </span>
               <span className="inline-block px-3 py-1 mr-0 text-xs font-medium rounded-full text-sky bg-slate-800 hover:bg-slate-700 last:mr-0">
-                Vercel
+                Firebase
               </span>
             </ul>
           </div>
