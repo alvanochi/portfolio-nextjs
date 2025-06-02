@@ -1,9 +1,9 @@
 import nextjs from "./img/projects/nextjs.jpg";
-import reactjs from "./img/projects/reactjs.jpg";
-import nociStore from "./img/projects/nociStore.jpg";
+import cekulit from "./img/projects/cekulit.png";
+import gesture from "./img/projects/gesture.png";
 import smanic from "./img/projects/smanic.jpg";
-import wedding from "./img/projects/wedding.jpg";
-import cashier from "./img/projects/cashier.jpg";
+import bps from "./img/projects/bps.png";
+import anikitsu from "./img/projects/anikitsu.png";
 import catat from "./img/projects/catat.jpg";
 
-export { nextjs, reactjs, nociStore, smanic, wedding, cashier, catat };
+export { nextjs, cekulit, gesture, smanic, bps, anikitsu, catat };

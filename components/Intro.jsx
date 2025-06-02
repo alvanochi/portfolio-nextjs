@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FiInstagram, FiFacebook, FiLinkedin, FiGithub } from "react-icons/fi";
+import { FiLinkedin, FiGithub } from "react-icons/fi";
 
 const Intro = () => {
   return (
@@ -15,7 +15,7 @@ const Intro = () => {
         >
           Alvano Hastagina
         </motion.a>
-        <ul className="">
+        <ul>
           <li>
             <a
               href="https://docs.google.com/document/d/1lhNZ6KMWIOSFzLHpTXr24qJKNSjN_6xR/edit?usp=sharing&ouid=115773730673062895158&rtpof=true&sd=true"
@@ -36,12 +36,12 @@ const Intro = () => {
       {/* Header stop */}
 
       {/* About content */}
-      <div className="p-4 py-24">
+      <div className="px-4 py-40 my-4 lg:my-0 lg:py-32">
         <motion.h2
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="py-2 text-xl font-bold md:text-5xl font-title text-primary"
+          className="py-2 text-2xl font-bold md:text-5xl font-title text-primary"
         >
           Alvano Hastagina
         </motion.h2>
@@ -90,32 +90,6 @@ const Intro = () => {
             >
               <span className="inline-flex items-center justify-center w-10 h-10 text-2xl transition-all duration-300 cursor-pointer hover:text-sky hover:-translate-y-2">
                 <FiLinkedin />
-              </span>
-            </motion.a>
-            {/* Facebook */}
-            <motion.a
-              initial={{ y: 10, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.9 }}
-              href="https://facebook.com/navlaID"
-              title="Facebook"
-              target="_blank"
-            >
-              <span className="inline-flex items-center justify-center w-10 h-10 text-2xl transition-all duration-300 cursor-pointer hover:text-sky hover:-translate-y-2">
-                <FiFacebook />
-              </span>
-            </motion.a>
-            {/* Instagram */}
-            <motion.a
-              initial={{ y: 10, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1 }}
-              href="https://instagram.com/alvanocchi"
-              title="Instagram"
-              target="_blank"
-            >
-              <span className="inline-flex items-center justify-center w-10 h-10 text-2xl transition-all duration-300 cursor-pointer hover:text-sky hover:-translate-y-2">
-                <FiInstagram />
               </span>
             </motion.a>
           </div>

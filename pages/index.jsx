@@ -15,7 +15,7 @@ export default function Home() {
       <main className="px-2 bg-slate-900 md:px-10 font-body text-primary">
         <Intro />
         <div className="w-full p-4 mx-auto">
-          {/* <Experience /> */}
+          <Experience />
           <Projects />
           <Footer />
         </div>
